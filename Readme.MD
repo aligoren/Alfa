@@ -8,23 +8,23 @@ fatura bilgileri ekleme vs. özelliklere sahip olacak.
 
 ### Yapılanlar:
 
-  - Not Ekleme, Güncelleme
-  - Kullanıcı Girişi, Kullanıcı Ekleme
-  - Tema Değiştirme (DevExpress stiliyle. Veritabanından kontrol yapılarak sağlanıyor.)
+  - [x] Not Ekleme, Güncelleme
+  - [x] Kullanıcı Girişi, Kullanıcı Ekleme
+  - [x] Tema Değiştirme (DevExpress stiliyle. Veritabanından kontrol yapılarak sağlanıyor.)
 
 ### Yapılacaklar:
 
-  - Randevu Ekleme
-  - URL Kayıt
-  - Parolaların Kaydedileceği Alan
-  - Banka Hesabı Ekleme
-  - Aylık Gelir Ekleme
-  - Aylık Gider Görüntüleme, Hesaplama
-  - Fatura Türüne Göre Fatura Ekleme ( Telefon, Elektrik, Su vb.) , o kategoriye ait olan yıllık giderleri hesaplama
-  - Kullanıcı Taraflı Sözlük ( Ekleme, silme işlemi kullanıcıya ait )
-  - Telefon Rehberi
-  - Adres Rehberi
-  - İlgili alanlarla ilgili PDF, Excel vb. çıktı alma
+  - [ ] Randevu Ekleme
+  - [ ] URL Kayıt
+  - [ ] Parolaların Kaydedileceği Alan
+  - [ ] Banka Hesabı Ekleme
+  - [ ] Aylık Gelir Ekleme
+  - [ ] Aylık Gider Görüntüleme, Hesaplama
+  - [ ] Fatura Türüne Göre Fatura Ekleme ( Telefon, Elektrik, Su vb.) , o kategoriye ait olan yıllık giderleri hesaplama
+  - [ ] Kullanıcı Taraflı Sözlük ( Ekleme, silme işlemi kullanıcıya ait )
+  - [ ] Telefon Rehberi
+  - [ ] Adres Rehberi
+  - [ ] İlgili alanlarla ilgili PDF, Excel vb. çıktı alma
 
 ### Ve dahası
 
