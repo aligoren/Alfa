@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlfaDBModelStoreContainer" CdmEntityContainer="AlfaDBEntities">
+    <EntitySetMapping Name="Kullanicis">
+      <EntityTypeMapping TypeName="AlfaDBModel.Kullanici">
+        <MappingFragment StoreEntitySet="Kullanici">
+          <ScalarProperty Name="Kullanici_ID" ColumnName="Kullanici_ID" />
+          <ScalarProperty Name="KullaniciAdi" ColumnName="KullaniciAdi" />
+          <ScalarProperty Name="KullaniciSifre" ColumnName="KullaniciSifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Notlars">
+      <EntityTypeMapping TypeName="AlfaDBModel.Notlar">
+        <MappingFragment StoreEntitySet="Notlar">
+          <ScalarProperty Name="NotIcerik" ColumnName="NotIcerik" />
+          <ScalarProperty Name="NotBaslik" ColumnName="NotBaslik" />
+          <ScalarProperty Name="NotID" ColumnName="NotID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Temas">
+      <EntityTypeMapping TypeName="AlfaDBModel.Tema">
+        <MappingFragment StoreEntitySet="Tema">
+          <ScalarProperty Name="TemaAdi" ColumnName="TemaAdi" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
