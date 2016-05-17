@@ -56,6 +56,7 @@
             this.grpYeniNot = new DevExpress.XtraEditors.GroupControl();
             this.lblYeniNot = new DevExpress.XtraEditors.LabelControl();
             this.pceYeniNot = new DevExpress.XtraEditors.PictureEdit();
+            this.brTelRehber = new DevExpress.XtraBars.BarSubItem();
             ((System.ComponentModel.ISupportInitialize)(this.pnlGenel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdVeriler)).BeginInit();
@@ -99,9 +100,10 @@
             this.brKullaniciEkle,
             this.brSistemBilgisi,
             this.brTemaSec,
-            this.brNotEkle});
+            this.brNotEkle,
+            this.brTelRehber});
             this.barManager1.MainMenu = this.brMenu;
-            this.barManager1.MaxItemId = 13;
+            this.barManager1.MaxItemId = 14;
             // 
             // brMenu
             // 
@@ -111,7 +113,8 @@
             this.brMenu.DockStyle = DevExpress.XtraBars.BarDockStyle.Top;
             this.brMenu.LinksPersistInfo.AddRange(new DevExpress.XtraBars.LinkPersistInfo[] {
             new DevExpress.XtraBars.LinkPersistInfo(this.brDosya),
-            new DevExpress.XtraBars.LinkPersistInfo(this.brNotEkle)});
+            new DevExpress.XtraBars.LinkPersistInfo(this.brNotEkle),
+            new DevExpress.XtraBars.LinkPersistInfo(this.brTelRehber)});
             this.brMenu.OptionsBar.AllowQuickCustomization = false;
             this.brMenu.OptionsBar.DrawBorder = false;
             this.brMenu.OptionsBar.MultiLine = true;
@@ -316,6 +319,13 @@
             this.pceYeniNot.TabIndex = 4;
             this.pceYeniNot.Click += new System.EventHandler(this.pceYeniNot_Click);
             // 
+            // brTelRehber
+            // 
+            this.brTelRehber.Caption = "Telefon Rehberi";
+            this.brTelRehber.Id = 13;
+            this.brTelRehber.Name = "brTelRehber";
+            this.brTelRehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.brTelRehber_ItemClick);
+            // 
             // Yonetim
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -378,5 +388,6 @@
         private DevExpress.XtraBars.BarSubItem brTemaSec;
         private DevExpress.XtraBars.BarSubItem brNotEkle;
         private DevExpress.XtraSplashScreen.SplashScreenManager splashScreenManager1;
+        private DevExpress.XtraBars.BarSubItem brTelRehber;
     }
 }

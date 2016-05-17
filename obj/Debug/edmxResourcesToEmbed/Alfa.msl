@@ -27,5 +27,14 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="TelefonRehberis">
+      <EntityTypeMapping TypeName="AlfaDBModel.TelefonRehberi">
+        <MappingFragment StoreEntitySet="TelefonRehberi">
+          <ScalarProperty Name="TelefonNumarasi" ColumnName="TelefonNumarasi" />
+          <ScalarProperty Name="KisiAdiSoyadi" ColumnName="KisiAdiSoyadi" />
+          <ScalarProperty Name="RehberID" ColumnName="RehberID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

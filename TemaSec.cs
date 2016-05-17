@@ -29,16 +29,6 @@ namespace Alfa
 
         private void btnTemaSec_Click(object sender, EventArgs e)
         {
-            //if (cmbTema.Text == "Tema Seç")
-            //{
-            //    XtraMessageBox.Show("Tema Seçme İşlemi Hatalı. Açılır Menüden Seçilmeli", "HATA");
-            //}
-            //else
-            //{
-            //    
-            //    
-            //}
-
             DevExpress.Skins.SkinManager.EnableFormSkins();
             DevExpress.LookAndFeel.UserLookAndFeel.Default.SetSkinStyle(lstTemalar.Text);
             TSec(lstTemalar.Text);

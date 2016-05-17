@@ -21,6 +21,14 @@
           <Property Name="NotBaslik" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="NotIcerik" Type="nvarchar" MaxLength="100" Nullable="false" />
         </EntityType>
+        <EntityType Name="TelefonRehberi">
+          <Key>
+            <PropertyRef Name="RehberID" />
+          </Key>
+          <Property Name="RehberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KisiAdiSoyadi" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="TelefonNumarasi" Type="nvarchar" MaxLength="15" Nullable="false" />
+        </EntityType>
         <EntityType Name="Tema">
           <Key>
             <PropertyRef Name="id" />
@@ -31,6 +39,7 @@
         <EntityContainer Name="AlfaDBModelStoreContainer">
           <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Notlar" EntityType="Self.Notlar" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TelefonRehberi" EntityType="Self.TelefonRehberi" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Tema" EntityType="Self.Tema" Schema="dbo" store:Type="Tables" />
         </EntityContainer>
       </Schema></edmx:StorageModels>
@@ -49,6 +58,7 @@
           <EntitySet Name="Kullanicis" EntityType="Self.Kullanici" />
           <EntitySet Name="Notlars" EntityType="AlfaDBModel.Notlar" />
           <EntitySet Name="Temas" EntityType="AlfaDBModel.Tema" />
+          <EntitySet Name="TelefonRehberis" EntityType="AlfaDBModel.TelefonRehberi" />
         </EntityContainer>
         <EntityType Name="Notlar">
           <Key>
@@ -64,6 +74,14 @@
           </Key>
           <Property Name="id" Type="Int32" Nullable="false" />
           <Property Name="TemaAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="TelefonRehberi">
+          <Key>
+            <PropertyRef Name="RehberID" />
+          </Key>
+          <Property Name="RehberID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KisiAdiSoyadi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TelefonNumarasi" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -94,6 +112,15 @@
               <MappingFragment StoreEntitySet="Tema">
                 <ScalarProperty Name="TemaAdi" ColumnName="TemaAdi" />
                 <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TelefonRehberis">
+            <EntityTypeMapping TypeName="AlfaDBModel.TelefonRehberi">
+              <MappingFragment StoreEntitySet="TelefonRehberi">
+                <ScalarProperty Name="TelefonNumarasi" ColumnName="TelefonNumarasi" />
+                <ScalarProperty Name="KisiAdiSoyadi" ColumnName="KisiAdiSoyadi" />
+                <ScalarProperty Name="RehberID" ColumnName="RehberID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

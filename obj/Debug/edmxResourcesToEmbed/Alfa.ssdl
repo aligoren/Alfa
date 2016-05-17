@@ -16,6 +16,14 @@
     <Property Name="NotBaslik" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="NotIcerik" Type="nvarchar" MaxLength="100" Nullable="false" />
   </EntityType>
+  <EntityType Name="TelefonRehberi">
+    <Key>
+      <PropertyRef Name="RehberID" />
+    </Key>
+    <Property Name="RehberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KisiAdiSoyadi" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="TelefonNumarasi" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
   <EntityType Name="Tema">
     <Key>
       <PropertyRef Name="id" />
@@ -26,6 +34,7 @@
   <EntityContainer Name="AlfaDBModelStoreContainer">
     <EntitySet Name="Kullanici" EntityType="Self.Kullanici" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Notlar" EntityType="Self.Notlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TelefonRehberi" EntityType="Self.TelefonRehberi" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Tema" EntityType="Self.Tema" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

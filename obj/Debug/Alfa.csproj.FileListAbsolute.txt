@@ -100,3 +100,11 @@ C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug
 C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug\Alfa.TemaSec.resources
 C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug\Alfa.csprojResolveAssemblyReference.cache
 C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug\Alfa.KullaniciEkle.resources
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug\Alfa.TelRehber.resources
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.dll
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\DevExpress.XtraVerticalGrid.v15.2.xml
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\de\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\es\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\ja\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\bin\Debug\ru\DevExpress.XtraVerticalGrid.v15.2.resources.dll
+C:\Users\ali\Documents\Visual Studio 2015\Projects\DXApplication2\Alfa\obj\Debug\Alfa.YeniTelefonKisi.resources

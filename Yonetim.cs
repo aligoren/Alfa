@@ -131,5 +131,11 @@ namespace Alfa
             KullaniciEkle kullanici_ekle = new KullaniciEkle();
             kullanici_ekle.ShowDialog();
         }
+
+        private void brTelRehber_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            TelRehber tr = new TelRehber();
+            tr.ShowDialog();
+        }
     }
 }

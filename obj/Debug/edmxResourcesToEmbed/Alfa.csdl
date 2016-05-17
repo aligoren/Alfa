@@ -12,6 +12,7 @@
     <EntitySet Name="Kullanicis" EntityType="Self.Kullanici" />
     <EntitySet Name="Notlars" EntityType="AlfaDBModel.Notlar" />
     <EntitySet Name="Temas" EntityType="AlfaDBModel.Tema" />
+    <EntitySet Name="TelefonRehberis" EntityType="AlfaDBModel.TelefonRehberi" />
   </EntityContainer>
   <EntityType Name="Notlar">
     <Key>
@@ -27,5 +28,13 @@
     </Key>
     <Property Name="id" Type="Int32" Nullable="false" />
     <Property Name="TemaAdi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="TelefonRehberi">
+    <Key>
+      <PropertyRef Name="RehberID" />
+    </Key>
+    <Property Name="RehberID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KisiAdiSoyadi" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TelefonNumarasi" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>

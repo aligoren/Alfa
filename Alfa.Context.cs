@@ -28,5 +28,6 @@ namespace Alfa
         public virtual DbSet<Kullanici> Kullanicis { get; set; }
         public virtual DbSet<Notlar> Notlars { get; set; }
         public virtual DbSet<Tema> Temas { get; set; }
+        public virtual DbSet<TelefonRehberi> TelefonRehberis { get; set; }
     }
 }
