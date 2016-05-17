@@ -8,9 +8,10 @@ fatura bilgileri ekleme vs. özelliklere sahip olacak.
 
 ### Yapılanlar:
 
-  - [x] Not Ekleme, Güncelleme
-  - [x] Kullanıcı Girişi, Kullanıcı Ekleme
+  - [x] Not Ekleme, Güncelleme ( Tüm notların görüntüleneceği bir sayfa ve silme işlemi yapılacak )
+  - [x] Kullanıcı Girişi, Kullanıcı Ekleme ( Silme ve güncelleme yapılacak )
   - [x] Tema Değiştirme (DevExpress stiliyle. Veritabanından kontrol yapılarak sağlanıyor.)
+  - [x] Telefon Rehberi ( Silme ve güncelleme yapılacak )
 
 ### Yapılacaklar:
 
@@ -22,7 +23,6 @@ fatura bilgileri ekleme vs. özelliklere sahip olacak.
   - [ ] Aylık Gider Görüntüleme, Hesaplama
   - [ ] Fatura Türüne Göre Fatura Ekleme ( Telefon, Elektrik, Su vb.) , o kategoriye ait olan yıllık giderleri hesaplama
   - [ ] Kullanıcı Taraflı Sözlük ( Ekleme, silme işlemi kullanıcıya ait )
-  - [ ] Telefon Rehberi
   - [ ] Adres Rehberi
   - [ ] İlgili alanlarla ilgili PDF, Excel vb. çıktı alma
 
